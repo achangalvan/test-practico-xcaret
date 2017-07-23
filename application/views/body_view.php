@@ -3,7 +3,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
 						<ol class="breadcrumb">
-						  <li><a href="#">Inicio</a></li>
+						  <li>Inicio</li>
 						  <li class="active">Acerca de ...</li>
 						</ol>
 					</div>
