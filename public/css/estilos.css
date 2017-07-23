@@ -71,13 +71,14 @@
 }
 .list-group-item:first-child{
 	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
+	border-top-right-radius: 0px;	
 }
 .list-group{
 	margin-bottom: 0px;
 }
 .list-group-item{
 	border: 0px;
+	padding: 5px 15px;
 }
 .video {
     background: #383737;
@@ -90,6 +91,10 @@
 }
 .div-btn-video > button{
 	border-radius: 0px;
+}
+p#compra_aqui {
+    margin: 0px;
+    font-size: 15px;
 }
 #reservas,#bancos,#logos .col-md-10 > .row,#otras-opciones,#atencion_clientes,#texto_final,.footer{
 	margin-top: 30px;

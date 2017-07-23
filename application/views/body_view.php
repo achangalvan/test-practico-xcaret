@@ -27,13 +27,12 @@
 						</div>
 						<div class="col-md-3">
 							<ul class="list-group">
-								<li class="list-group-item">Compra aqui y obten hasta un 15% de descuento</li>
-								<li class="list-group-item"><strong>Nombre del producto</strong></li>
+								<li class="list-group-item"><p  class="text-center" id="compra_aqui"><strong>COMPRA AQUÍ</strong></p> y obten hasta un 15% de descuento</li>
+								<li class="list-group-item"><h5><strong>Nombre del producto</strong></h5></li>
 								<li class="list-group-item">Precio regular: <del>$0,000.00MXN</del></li>
-								<li class="list-group-item"><strong>Precio en linea: $0,000.00 MXN</strong> <input type="checkbox"></li>
+								<li class="list-group-item"><h4><strong>Precio en linea: $0,000.00 MXN</strong></h4> <input type="checkbox"></li>
 								<li class="list-group-item">Agregar transportación redonda desde tu hotel <strong>$0,000.00 MXN </strong> <input type="checkbox"></li>
-								<li class="list-group-item">Agregar Foto Pase: <strong>$0,000.00 MXN</strong></li>
-								<li class="list-group-item">Agregar Foto Pase: <strong>$0,000.00 MXN</strong></li>
+								<li class="list-group-item">Agregar Foto Pase: <strong>$0,000.00 MXN</strong></li>								
 							</ul>
 							<button class="btn btn-lg btn-block" id="comprar">COMPRAR AHORA</button>
 						</div>
@@ -55,9 +54,9 @@
 								<p class="psmall">*Precios sujetos a cambios sin previo aviso.</p>
 							</div>
 							<div class="row-fluid">
-								<h5>¿Porqué reservar con nosotros?</h5>
+								<h6><strong>¿Porqué reservar con nosotros?</strong></h6>
 								<div class="row-fluid">
-									<div class="tabla_reservas">										
+									<div class="tabla_reservas">
 										<div class="row-fluid"><span class="titulo_oferta">-10%</span></div>
 										<div class="row-fluid"><p class="span_small">EN TU COMPRA*</p></div>
 									</div>
