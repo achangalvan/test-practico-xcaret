@@ -1,0 +1,126 @@
+.well{
+	border-radius: 0px;
+	border: none;
+	margin-bottom: 0px;
+}
+/*Separar el texto de los iconos*/
+.icontext{
+	margin-right: 5px;
+}
+/*Agregar una linea separadora entre opciones*/
+.barra_vertical{
+	padding-right: 10px;
+	border-right: 1px solid;
+}
+
+/*Remover fondo el menu*/
+.navbar-trasnparent,.breadcrumb{
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.nav > li > a {
+    padding: 10px 8px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+/*Tamaño de las letras logotipo*/
+#logotipo{
+	font-size: 40px;
+}
+
+/*Construccion del menu QUIERO*/
+.adicionales_sbr,.adicionales_cbc{
+	width: 20%;
+	border-left: 1px solid;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	height: 60px;
+	padding: 0px 4%;
+	text-align: center;
+	display: table;
+	float: left;
+}
+.adicionales_cbc{
+	border-right: 1px solid
+}
+.adicionales_principal,.list-group-item:first-child,#comprar,.div-btn-video > button,#btn-cotizar,.well2{			
+	background-color: #000;
+}
+.adicionales_principal > .adicionales_text,.list-group-item:first-child,#comprar,.div-btn-video > button,#btn-cotizar,.well2{			
+	color: #fff;
+}
+.adicionales_text{
+	vertical-align: middle;
+	display: table-cell;
+}
+/*Armar flecha que sobre sale del primer cuadro del menu quiero*/
+.adicionales_principal:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 17px solid #000;
+	border-top: 19px solid transparent;
+	border-bottom: 19px solid transparent;
+	right: -30px;
+	position: absolute;
+	margin-top: 12px;
+	right: 763px;
+	z-index: 0;
+}
+.list-group-item:first-child{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.list-group{
+	margin-bottom: 0px;
+}
+.list-group-item{
+	border: 0px;
+}
+.video {
+    background: #383737;
+    height: 400px;
+    margin-bottom: 1px;
+}
+.div-btn-video{
+	padding-right: 1px;
+	padding-left: 1px;
+}
+.div-btn-video > button{
+	border-radius: 0px;
+}
+#reservas,#bancos,#logos .col-md-10 > .row,#otras-opciones,#atencion_clientes,#texto_final,.footer{
+	margin-top: 30px;
+}
+#reservas > p.psmall{
+    margin: 0px;
+    font-size: 10px;
+}
+/*Armar cuadro de 3*3 en el apartado de las reservas*/
+.tabla_reservas{
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    width: 69px;
+    height: 63px;
+    float: left;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+}
+.span_small{
+	font-size: 9px;
+}
+.titulo_oferta{
+	font-size: 18px;
+	font-weight: bold;
+}
+p#oferta_banco {
+    font-size: 16px;
+}
+#bancos{
+	border: 1px solid;
+}
+
